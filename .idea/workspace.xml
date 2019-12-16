@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="233bcd04-2396-4836-929b-536a5dce1aab" name="Default Changelist" comment="" />
+    <list default="true" id="233bcd04-2396-4836-929b-536a5dce1aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tcp_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/tcp_c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/udp_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/udp_c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/udp_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/udp_s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/window.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +24,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U0pLOU1ubgTHx5T8I4yrlYhhNf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LetsChat_S" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python\Python\LetsChat_C\server" />
+      <recent name="E:\Python\Python\LetsChat_C\client" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tcp_c" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LetsChat_C" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python\Python\LetsChat_C\module\process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/tcp_c.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,9 +191,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.window" />
+      <item itemvalue="Python.tcp_c" />
       <item itemvalue="Python.udp_s" />
       <item itemvalue="Python.udp_c" />
-      <item itemvalue="Python.process" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
@@ -181,8 +201,8 @@
         <item itemvalue="Python.window" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.udp_c" />
-        <item itemvalue="Python.process" />
         <item itemvalue="Python.udp_s" />
+        <item itemvalue="Python.tcp_c" />
       </list>
     </recent_temporary>
   </component>
@@ -198,18 +218,46 @@
       <updated>1574503310114</updated>
       <workItem from="1574503311220" duration="28733000" />
       <workItem from="1574693420879" duration="601000" />
-      <workItem from="1574755680404" duration="13340000" />
+      <workItem from="1574755680404" duration="15635000" />
+      <workItem from="1574905469863" duration="3551000" />
+      <workItem from="1574998747993" duration="31430000" />
+      <workItem from="1576404396341" duration="16410000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LetsChat_C$test.coverage" NAME="test Coverage Results" MODIFIED="1574822916961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$tcp_c.coverage" NAME="tcp_c Coverage Results" MODIFIED="1574907927758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$test.coverage" NAME="test Coverage Results" MODIFIED="1576486645328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
     <SUITE FILE_PATH="coverage/LetsChat_C$process.coverage" NAME="process Coverage Results" MODIFIED="1574609689451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
-    <SUITE FILE_PATH="coverage/LetsChat_C$udp_s.coverage" NAME="udp_s Coverage Results" MODIFIED="1574562373934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
-    <SUITE FILE_PATH="coverage/LetsChat_C$udp_c.coverage" NAME="udp_c Coverage Results" MODIFIED="1574610146709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
-    <SUITE FILE_PATH="coverage/LetsChat_C$window.coverage" NAME="window Coverage Results" MODIFIED="1574823481672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$tcp_s.coverage" NAME="tcp_s Coverage Results" MODIFIED="1574907925709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$udp_s.coverage" NAME="udp_s Coverage Results" MODIFIED="1574908075115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$udp_c.coverage" NAME="udp_c Coverage Results" MODIFIED="1574908079654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UDPSocket" />
+    <SUITE FILE_PATH="coverage/LetsChat_C$window.coverage" NAME="window Coverage Results" MODIFIED="1576496029223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

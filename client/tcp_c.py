@@ -6,7 +6,7 @@
 
 from socket import *
 
-IP = "192.168.1.109"
+IP = "localhost"
 PORT = 12345
 
 # 创建TCP套接字
