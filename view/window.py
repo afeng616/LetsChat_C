@@ -28,8 +28,10 @@ class UI(object):
         self.list_persons = Listbox(self.frm_r, height=18)  # 成员列表
         self.menu = Menu(self.frm_r, tearoff=0)  # 双击菜单
 
-        self.process_udp = UDPProcess(self.text_history)
+        self.process_udp = UDPProcess(self.text_history, self.list_persons, account)
         self.process_sql = SQLProcess()
+        self.process_udp.members = self.process_sql.members()
+        self.process_udp.init_users_status()
         self.ip = self.process_udp.ip
 
     # 界面展示
@@ -38,7 +40,6 @@ class UI(object):
         def check():
             if self.process_sql.join(self.id):
                 logging.info('进入群聊')
-                # TODO: UDP发送进群消息供管理员操作
                 to_chat.destroy()
                 self.chat()
             else:
@@ -58,6 +59,8 @@ class UI(object):
         to_chat.place(x=240, y=160)
 
     def chat(self):
+        self.process_udp.start()
+
         self.frm_l.pack(side='left')
         # 消息展示框设置
         scrol = Scrollbar(self.frm_l)
@@ -78,8 +81,6 @@ class UI(object):
         label.pack()
         sb = Scrollbar(self.frm_r)
         sb.pack(side='right', fill=Y)
-        for i in range(20):
-            self.list_persons.insert(END, str(i) + '-JoJo')
         self.list_persons.config(yscrollcommand=sb.set)
         self.list_persons.bind('<Double-Button-1>', self.do_popup)
         self.list_persons.pack(padx=5)
